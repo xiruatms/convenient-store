@@ -1,0 +1,45 @@
+export const FilterStyle = {
+  reset: {
+    width: "50px",
+    margin: "0px 0px 0px 40px",
+    display: "inline",
+    padding: "10px",
+    border: "1px solid #D1D1D1",
+  },
+  ack: {
+    width: "50px",
+    margin: "0px 0px 0px 40px",
+    display: "inline",
+    padding: "10px",
+    border: "none",
+  },
+  tagFirstLevel: {
+    height: "30px",
+    width: "80px",
+    bold: "true",
+    marginTop: "10px",
+    fontSize: "20px",
+    fontWeight: "500",
+  },
+  tagsContainer: {
+    overflow: "hidden auto",
+  },
+  tagButton: {
+    height: "30px",
+    width: "80px",
+    margin: "10px 10px 10px 0px",
+    padding: "0px",
+    lineHeight: "1em",
+    border: "1px solid black",
+  },
+  tagButtonClicked: {
+    background: "#FDF6F4",
+    color: "#D44519",
+    height: "30px",
+    width: "80px",
+    border: "1px solid #D44519",
+    margin: "10px 10px 10px 0px",
+    padding: "0px",
+    lineHeight: "1em",
+  },
+};
