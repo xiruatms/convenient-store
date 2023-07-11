@@ -3,7 +3,6 @@ import qs from "qs";
 
 /* global process, console */
 
-// 创建 axios 实例
 //axios.defaults.baseURL = process.env.API_BASE_URL;
 axios.defaults.timeout = 6000;
 export const get = (url: string, config: AxiosRequestConfig = {}): Promise<any> =>

@@ -4,7 +4,7 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="OfficePLUS FHL"/>
+  <DisplayName DefaultValue="Conveniet Store FHL"/>
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://localhost:3000/assets/icon-OfficePLUS.png"/>
   <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-OfficePLUS.png"/>
@@ -13,6 +13,7 @@
     <AppDomain>https://www.contoso.com</AppDomain>
   </AppDomains>
   <Hosts>
+    <Host Name="Document"/>
     <Host Name="Presentation"/>
   </Hosts>
   <DefaultSettings>
@@ -74,7 +75,7 @@
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="OfficePLUS FHL"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="Convenient Store FHL"/>
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded succesfully. Go to the HOME tab and click the 'Show Taskpane' button to get started."/>
